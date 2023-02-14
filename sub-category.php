@@ -217,7 +217,7 @@ while ($row=mysqli_fetch_array($ret))
 								<i class="fa fa-shopping-cart"></i>													
 							</button>
 							<a href="category.php?page=product&action=add&id=<?php echo $row['id']; ?>">
-							<button class="btn btn-primary" type="button">Add to cart</button></a>
+							<button class="btn btn-primary" type="button">Shto në shportë</button></a>
 								<?php } else {?>
 							<div class="action" style="color:red">Out of Stock</div>
 					<?php } ?>
@@ -239,7 +239,7 @@ while ($row=mysqli_fetch_array($ret))
 		</div>
 	  <?php } } else {?>
 	
-		<div class="col-sm-6 col-md-4 wow fadeInUp"> <h3>No Product Found</h3>
+		<div class="col-sm-6 col-md-4 wow fadeInUp"> <h3>Nuk u gjet asnjë produkt</h3>
 		</div>
 		
 <?php } ?>	

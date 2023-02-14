@@ -28,7 +28,7 @@ window.print();
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
     <tr height="50">
-      <td colspan="2" class="fontkink2" style="padding-left:0px;"><div class="fontpink2"> <b>Order Tracking Details !</b></div></td>
+      <td colspan="2" class="fontkink2" style="padding-left:0px;"><div class="fontpink2"> <b>Detajet e përcjelljes së porosive !</b></div></td>
       
     </tr>
     <tr height="30">
@@ -67,7 +67,7 @@ while($row=mysqli_fetch_array($ret))
 else{
    ?>
    <tr>
-   <td colspan="2">Order Not Process Yet</td>
+   <td colspan="2">Porosia nuk është procesuar ende</td>
    </tr>
    <?php  }
 $st='Delivered';
@@ -79,7 +79,7 @@ $st='Delivered';
      if($st==$currrentSt)
      { ?>
    <tr><td colspan="2"><b>
-      Product Delivered successfully </b></td>
+   Produkti u dorëzua me sukses </b></td>
    <?php } 
  
   ?>
